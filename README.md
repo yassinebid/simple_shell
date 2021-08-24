@@ -7,4 +7,4 @@ Here is an example on how to check your shell. Fork this repo and add more check
 Open the file config and update the variable SHELL with your shell.
 
 # Run
-Usage ./check_simple_shell.bash
+Usage ./hsh
