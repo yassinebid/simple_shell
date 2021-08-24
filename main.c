@@ -5,5 +5,5 @@
  */
 int main(void)
 {
-return (start_shell);
+return (start_shell());
 }
