@@ -160,7 +160,7 @@ and don't handle  the && and || shell logical operators.
 
 ### Annotations
 
-We have writen a [blog post] (https://medium.com/@yassine99bouabid/487c13134ce4 )describing what happens when typing ls -l *.c and hit Enter in  shell using examples and detailing all different processes.
+We have writen a [blog post](https://medium.com/@yassine99bouabid/what-happens-when-you-type-ls-l-c-in-the-shell-487c13134ce4)describing what happens when typing ls -l *.c and hit Enter in  shell using examples and detailing all different processes.
 Feel free to check it.
 
 
