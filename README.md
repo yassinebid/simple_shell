@@ -30,7 +30,7 @@ To use our shell you simply need to:
 -  Compile with the following:
 
 `$ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh`
-////
+
 -  To exit the program, run:
 
 `$ Ctrl+D`
@@ -38,7 +38,7 @@ To use our shell you simply need to:
 - To compile the man page:
 
 `$ man ./man_1_simple_shell`
-////////
+
 ## Run
 Usage ./hsh
 
