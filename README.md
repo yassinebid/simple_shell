@@ -39,7 +39,7 @@ To use our shell you simply need to:
 
 `$ man ./man_1_simple_shell`
 ////////
-# Run
+## Run
 Usage ./hsh
 
 # Simple Shell, Checks
@@ -48,12 +48,12 @@ There will be no checks released before the deadline. We strongly
 
 Here is an example on how to check your shell. Fork this repo and add more checks to help you and the rest of the class build the best simple shell possible.
 
-# Configuration
+## Configuration
 Open the file config and update the variable SHELL with your shell.
 
 
 
-###List of allowed used functions and system calls
+### List of allowed used functions and system calls
 - chdir (man 2 chdir)
 - close (man 2 close)
 - execve (man 2 execve)
@@ -77,37 +77,23 @@ Open the file config and update the variable SHELL with your shell.
 
 
 
-### Files and functions
 
-|  File |  Function  | Description  |
-| ------------ | ------------ | ------------ |
-|   shell.h | header file  |   contains all the prototypes  |
-|  built_in.c  |   check_builtin | check if the command passed is a builtin or not  |
-|   | fun_builtin  | return the function of the command bultin passed |
-|   | print_env  | prints all the environment variables  |
-|   | fun_builtin  | return the function of the command bultin passed |
-|   | print_env  | prints all the environment variables  |
-|   | change_dir |  change directory|
-| execute.c  | exec_cmd  |  execve the comands from line. |
-|  morefun.c |  sig_handler |checks if Ctrl C is pressed |
-|   |  prompt |  Display Shell Prompt "$" |
-|  parser_line.c | parse_line  |  parses the input |
-|  find_path.c | add_command  |  add command to the path |
-|   |  append_pathcmd |  concat the command with the full path |
-| readline.c  |_readline   |   read a line from insert|
-|  simple_shell.c | main  | main function  |
 
 
 ### C recreated functions used  :
 
 |  Function | Description  |
 | ------------ | ------------ |
-|_getenv.c    |  Gets the value of an environment variable |
-| _strlen  |  Gets the length of a string   |
-| _strcpy |  Copies a string|
+| _strlen |  Gets the length of a string   |
 |   _strcmp|  Compares two strings|
-|_strdup   |  Duplicates a string |
-|  _strcat |Concatenates two strings  |
+|  *concat |concat two strings|
+|  indexof | index of input  |
+|  lastindexof |last index of input  |
+|  *_strcp |copy from string  |
+|  *_path|path of command  |
+|  _isdigit|check if input is a digit  |
+|  power|calc power  |
+|  toInt|convert string to int  |
 
 Testing
 
