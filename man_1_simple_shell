@@ -1,4 +1,4 @@
-.TH man 1 "02/04/2021" "0.0" "hsh man page"
+.TH man 1 "27/08/2021" "0.0" "hsh man page"
 .SH NAME
 .B hsh
 - Holberton Shell
@@ -8,8 +8,6 @@
 .B hsh
 is a simple shell like command interpreter. It executes commands read from the standard input. hsh is not fully featured.
 .SH BUILTIN COMMANDS
-.B cd
-- changes the working directory.
 .B ls
 - show all the files in the current directory.
 .B pwd
@@ -17,15 +15,9 @@ is a simple shell like command interpreter. It executes commands read from the s
 .B rm
 - remove a file.
 .B touch
-- creat a file.
-.B _getline
-- save the input as a string.
-.B env
-- print the environment
+- creat a file
 .B exit
 - exit the shell.
-.B setenv
-- set an environmental variable.
 .SH BUGS
 Currently this project is in progress. If there is any bugs, you can contact <yassin99bouabid@gmail.com>
 .SH AUTHORS
